@@ -1,0 +1,170 @@
+{
+  "name": "eh5e",
+  "title": "Everyday Heroes System",
+  "description": "A system for playing the fifth edition of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment.",
+  "version": "1.0",
+  "author": "DMReuben",
+  "scripts": [],
+  "esmodules": ["eh5e.js"],
+  "styles": ["eh5e.css"],
+  "packs": [
+    {
+      "name": "adversaries",
+      "label": "Adversaries",
+      "system": "eh5e",
+      "path": "./packs/adversaries.db",
+      "type": "Actor"
+    },
+    {
+      "name": "adversary-features",
+      "label": "Adversary Features",
+      "system": "eh5e",
+      "path": "./packs/adversary-features.db",
+      "type": "Item"
+    },
+    {
+      "name": "armour",
+      "label": "Armour",
+      "system": "eh5e",
+      "path": "./packs/armour.db",
+      "type": "Item"
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "system": "eh5e",
+      "path": "./packs/backgrounds.db",
+      "type": "Item"
+    },
+    {
+      "name": "plans",
+      "label": "Plans",
+      "system": "eh5e",
+      "path": "./packs/plans.db",
+      "type": "Item"
+    },
+    {
+      "name": "brute-civilian-pack",
+      "label": "Brute Civilian Pack",
+      "system": "eh5e",
+      "path": "./packs/brute-civilian-pack.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "brute-military-pack",
+      "label": "Brute Military Pack",
+      "system": "eh5e",
+      "path": "./packs/brute-military-pack.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "commando-civilian-pack",
+      "label": "Commando Civilian Pack",
+      "system": "eh5e",
+      "path": "./packs/commando-civilian-pack.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "commando-military-pack",
+      "label": "Commando Military Pack",
+      "system": "eh5e",
+      "path": "./packs/commando-military-pack.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "mastermind-civilian-pack",
+      "label": "Mastermind Civilian Pack",
+      "system": "eh5e",
+      "path": "./packs/mastermind-civilian-pack.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "mastermind-military-pack",
+      "label": "Mastermind Military Pack",
+      "system": "eh5e",
+      "path": "./packs/masterminf-military-pack.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "sleuth-civilian-pack",
+      "label": "Sleuth Civilian Pack",
+      "system": "eh5e",
+      "path": "./packs/sleuth-civilian-pack.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "sleuth-military-pack",
+      "label": "Sleuth Military Pack",
+      "system": "eh5e",
+      "path": "./packs/sleuth-military-pack.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "system": "eh5e",
+      "path": "./packs/classes.db",
+      "type": "Item"
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "system": "eh5e",
+      "path": "./packs/equipment.db",
+      "type": "Item"
+    },
+    {
+      "name": "professions",
+      "label": "Professions",
+      "system": "eh5e",
+      "path": "./packs/professions.db",
+      "type": "Item"
+    },
+    {
+      "name": "starter-pcs",
+      "label": "Starter PCs",
+      "system": "eh5e",
+      "path": "./packs/starter-pcs.db",
+      "type": "Actor"
+    },
+    {
+      "name": "talents",
+      "label": "Talents",
+      "system": "eh5e",
+      "path": "./packs/talents.db",
+      "type": "Item"
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "system": "eh5e",
+      "path": "./packs/weapons.db",
+      "type": "Item"
+    }
+   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": true,
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "attributes.hp",
+  "secondaryTokenAttribute": null,
+  "minimumCoreVersion": "9.245",
+  "compatibleCoreVersion": "9",
+  "url": "https://github.com/foundryvtt/eh5e/",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt/eh5e/master/system.json",
+  "download": "https://github.com/foundryvtt/eh5e/releases/download/release-1.6.3/eh5e-1.6.3.zip"
+}

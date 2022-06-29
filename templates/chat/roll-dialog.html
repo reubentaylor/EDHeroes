@@ -1,0 +1,24 @@
+<form>
+    <div class="form-group">
+        <label>{{ localize "EH5E.Formula" }}</label>
+        <input type="text" name="formula" value="{{formula}}" disabled/>
+    </div>
+    {{#if chooseModifier}}
+    <div class="form-group">
+        <label>{{ localize "EH5E.AbilityModifier" }}</label>
+        <select name="ability">
+            {{selectOptions abilities selected=defaultAbility}}
+        </select>
+    </div>
+    {{/if}}
+    <div class="form-group">
+        <label>{{ localize "EH5E.RollSituationalBonus" }}</label>
+        <input type="text" name="bonus" value="" placeholder="{{ localize 'EH5E.RollExample' }}"/>
+    </div>
+    <div class="form-group">
+        <label>{{ localize "EH5E.RollMode" }}</label>
+        <select name="rollMode">
+            {{selectOptions rollModes selected=defaultRollMode localize=true}}
+        </select>
+    </div>
+</form>

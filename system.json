@@ -164,7 +164,7 @@
   "secondaryTokenAttribute": null,
   "minimumCoreVersion": "9.245",
   "compatibleCoreVersion": "9",
-  "url": "https://github.com/foundryvtt/eh5e/",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt/eh5e/master/system.json",
-  "download": "https://github.com/foundryvtt/eh5e/releases/download/release-1.6.3/eh5e-1.6.3.zip"
+  "url": "https://github.com/reubentaylor/EDHeroes",
+  "manifest": "https://github.com/reubentaylor/EDHeroes/blob/main/system.json",
+  "download": "https://github.com/reubentaylor/EDHeroes/archive/refs/heads/main.zip"
 }
